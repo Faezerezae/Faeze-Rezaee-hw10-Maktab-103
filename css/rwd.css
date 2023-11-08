@@ -1,0 +1,141 @@
+@media only screen and (min-width: 768px) {
+  .header {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    width: 608px;
+    height: 263px;
+  }
+  .header-tittle {
+    width: 315px;
+    height: 263px;
+    border-radius: 12px;
+  }
+
+  .header-tittle h1,
+  .header-tittle p,
+  .headline-title p {
+    text-align: left;
+  }
+
+  .header-tittle .button,
+  .headline-title .button {
+    justify-self: flex-start;
+  }
+
+  .header img {
+    margin-top: 0px;
+    width: 273px;
+    height: 263px;
+  }
+
+  .brands {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    width: 768px;
+    height: 100px;
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+    width: 500px;
+    height: 646px;
+  }
+
+  .headline {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 588px;
+    height: 263px;
+    align-items: center;
+  }
+
+  .headline-title {
+    justify-items: start;
+  }
+
+  .clients {
+    width: 589px;
+    height: 291px;
+    gap: 35px;
+  }
+
+  .clients-component {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    height: 291px;
+    width: 589px;
+  }
+
+  .component {
+    width: 183px;
+    height: 216px;
+    padding: 20px;
+  }
+
+  .component p {
+    font-family: "Lato", sans-serif;
+    width: 143px;
+    height: 51px;
+    line-height: 17px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .pic-star {
+    gap: 10px;
+  }
+
+  .pic-star img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .star {
+    gap: 3px;
+  }
+
+  .star p {
+    font-size: 10px;
+    line-height: 18px;
+    width: 49px;
+    height: 18px;
+    font-weight: 400;
+  }
+
+  .star img {
+    width: 70.57px;
+    height: 11.71px;
+  }
+
+  .cta {
+    width: 588px;
+    height: 351px;
+  }
+
+  .cta-frame {
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+    justify-items: center;
+    width: 398px;
+    height: 283px;
+    column-gap: 50px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    width: 668px;
+    height: 122px;
+  }
+  .footer-section{
+    align-content: space-between;
+  }
+  .logo{
+    display: flex;
+    justify-content: flex-end
+  }
+
+
+}
